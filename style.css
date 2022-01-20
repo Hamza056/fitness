@@ -75,6 +75,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   gap: 9rem;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -100,6 +101,7 @@ nav {
   height: auto;
   height: 10rem;
   width: 10rem;
+  padding-inline: 1rem;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -259,6 +261,13 @@ main .back h2 {
 .img-container .left-small-img img {
   max-width: 100%;
   height: auto;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.img-container .left-small-img img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .Reviews {
@@ -958,11 +967,13 @@ footer .footer-main .logo-large img {
 .column-2 h1 {
   color: #fff;
   font-size: 2.6rem;
+  cursor: pointer;
 }
 
 .column-2 h3 {
   color: #fff;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
@@ -972,6 +983,7 @@ footer .footer-main .logo-large img {
 }
 
 .column-2 h2 {
+  cursor: pointer;
   color: #fff;
   font-size: 1.6rem;
 }
@@ -983,11 +995,13 @@ footer .footer-main .logo-large img {
 }
 
 .social {
+  cursor: pointer;
   margin-left: 7rem;
   margin-top: 10rem;
 }
 
 .social .social-icons {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -996,6 +1010,7 @@ footer .footer-main .logo-large img {
 }
 
 .msg {
+  cursor: pointer;
   margin-top: 17vh;
   margin-left: 20rem;
 }
@@ -1009,6 +1024,14 @@ footer .footer-main .logo-large img {
 .image-large img {
   max-width: 100%;
   height: auto;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.image-large img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  overflow: hidden;
 }
 
 button {
