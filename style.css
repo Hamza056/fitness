@@ -763,7 +763,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
   footer {
-    height: 200vh;
+    height: 220vh;
   }
 }
 
@@ -826,7 +826,7 @@ footer .footer-main .logo-large img {
 
 @media only screen and (max-width: 800px) {
   .column-1 {
-    margin-top: 120vh;
+    margin-top: 15rem;
   }
 }
 
