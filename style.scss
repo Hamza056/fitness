@@ -486,7 +486,7 @@ main {
   }
 }
 footer {
-  height: 150vh;
+  height: 160vh;
   background-color: #ff9f1c;
   background-size: cover;
 
@@ -528,8 +528,9 @@ footer {
     gap: 19rem;
   }
   @media only screen and (max-width: 800px) {
-    margin-top: 100vh;
+    margin-top: 120vh;
   }
+
   .logo-large {
     @media only screen and (max-width: 950px) {
       display: flex;

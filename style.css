@@ -756,7 +756,7 @@ main .back h2 {
 }
 
 footer {
-  height: 150vh;
+  height: 160vh;
   background-color: #ff9f1c;
   background-size: cover;
 }
@@ -820,7 +820,7 @@ footer .footer-main .logo-large img {
 
 @media only screen and (max-width: 800px) {
   .column-1 {
-    margin-top: 100vh;
+    margin-top: 120vh;
   }
 }
 
