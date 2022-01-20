@@ -486,10 +486,12 @@ main {
   }
 }
 footer {
-  height: 200vh;
+  height: 80vh;
   background-color: #ff9f1c;
   background-size: cover;
-
+  @media only screen and (max-width: 800px) {
+    height: 200vh;
+  }
   .footer-main {
     padding: 2rem;
     padding-top: 5rem;
@@ -499,7 +501,7 @@ footer {
       padding-inline: 0;
     }
     @media only screen and (max-width: 800px) {
-      height: 50vh;
+      height: 100vh;
       object-fit: cover;
     }
     .logo-large {

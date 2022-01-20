@@ -756,9 +756,15 @@ main .back h2 {
 }
 
 footer {
-  height: 200vh;
+  height: 80vh;
   background-color: #ff9f1c;
   background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  footer {
+    height: 200vh;
+  }
 }
 
 footer .footer-main {
@@ -776,7 +782,7 @@ footer .footer-main {
 
 @media only screen and (max-width: 800px) {
   footer .footer-main {
-    height: 50vh;
+    height: 100vh;
     -o-object-fit: cover;
        object-fit: cover;
   }
